@@ -4,7 +4,8 @@
   "description": "Instruction on how to setup a webpack on our project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack --mode development"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/zdnahom/webpack_setup/issues"
   },
-  "homepage": "https://github.com/zdnahom/webpack_setup#readme"
+  "homepage": "https://github.com/zdnahom/webpack_setup#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
 }
