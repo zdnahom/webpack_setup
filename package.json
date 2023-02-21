@@ -1,0 +1,20 @@
+{
+  "name": "webpack_setup",
+  "version": "1.0.0",
+  "description": "Instruction on how to setup a webpack on our project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zdnahom/webpack_setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zdnahom/webpack_setup/issues"
+  },
+  "homepage": "https://github.com/zdnahom/webpack_setup#readme"
+}
