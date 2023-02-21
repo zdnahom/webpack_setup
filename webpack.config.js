@@ -7,7 +7,8 @@ module.exports={
     },
     plugins:[
         new HtmlWebpackPlugin({
-            title:'Output Management'
+            title:'Output Management',
+            template:path.resolve(__dirname,'src','about.html')
         })
     ],
     output:{
